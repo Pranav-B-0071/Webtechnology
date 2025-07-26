@@ -1,0 +1,92 @@
+body {
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: white;
+    color: #333;
+}
+
+.container{
+    max-width:1000px;
+    margin:30px auto;
+    padding:30px 50px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 50px rgb(0,0,0);
+}
+
+header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+    white-space: nowrap;
+    overflow-x:auto;
+    color: #444;
+
+}
+
+a{
+    color:#0066cc;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+section{
+    margin-bottom:30px;
+}
+
+section h2{
+    font-size:22px;
+    border-bottom:2px solid #eee;
+    padding-bottom:6px;
+    margin-bottom:10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom:8px;
+}
+
+.experience{
+    margin-bottom: 20px;
+}
+
+.experience .date{
+    float:right;
+    font-weight:normal;
+}
+
+.experience::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.project{
+    margin-bottom:20px;
+}
+
+.project .date{
+    float:right;
+    font-weight:normal;
+}
+
+.project::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
